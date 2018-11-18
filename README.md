@@ -2,7 +2,7 @@
 Vivid Seats Challenge
 
 
-#NodeJS API Documentation and Installation Instructions
+#[NodeJS API Documentation and Installation Instructions](https://github.com/emuro2/events_challenge/blob/master/api/README.md)
 
 
 
