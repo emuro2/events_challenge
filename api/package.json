@@ -4,6 +4,7 @@
   "description": "vivid seats challenge api",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/emuro2/events_challenge/issues"
   },
-  "homepage": "https://github.com/emuro2/events_challenge#readme"
+  "homepage": "https://github.com/emuro2/events_challenge#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
