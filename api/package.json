@@ -1,0 +1,19 @@
+{
+  "name": "events_api",
+  "version": "1.0.0",
+  "description": "vivid seats challenge api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emuro2/events_challenge.git"
+  },
+  "author": "emuro2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emuro2/events_challenge/issues"
+  },
+  "homepage": "https://github.com/emuro2/events_challenge#readme"
+}
