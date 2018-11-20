@@ -1,0 +1,19 @@
+events_mongodb:
+    restart: always
+    image: mongo
+    ports:
+        - "27017:27017"
+
+mongo-seed:
+    build: ./database
+    links:
+        - events_mongodb
+
+events-api:
+    container_name: events_api
+    restart: always
+    build: ./api
+    ports:
+        - "3000:3000"
+    links:
+        - events_mongodb

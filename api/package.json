@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/emuro2/events_challenge#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "mongodb": "^3.1.10",
     "nodemon": "^1.18.6"
   }
 }
