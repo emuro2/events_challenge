@@ -24,6 +24,8 @@ GET /customers
 # Tickets
 GET /tickets
 
+
 GET /tickets/:eventid
+
 
 GET /tickets/:eventid/best
