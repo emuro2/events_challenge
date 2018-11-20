@@ -5,17 +5,28 @@ Vivid Seats Challenge
 # Data Model
 Collections: Events, Customers, Tickets, Sellers
 
-##Events
+## Events
+
 id, name, date, location, sellerId
-##Customers
+
+
+## Customers
+
 id, name, ticketIds, userReferral, address
-##Tickets
+
+
+## Tickets
+
 id, eventId, section, quantity, price, row
+
+
 ## Sellers
+
 id, name
 
 
-#NodeJS API Documentation
+# NodeJS API Documentation
+
 [here](https://github.com/emuro2/events_challenge/blob/master/api/README.md)
 
 
@@ -36,5 +47,7 @@ docker-compose up --build --force-recreate
 
 
 # helpful to clean up docker environment.
+```
 docker rmi $(docker images -a -q) -f
 docker system prune -a
+```
