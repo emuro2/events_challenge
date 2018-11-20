@@ -1,6 +1,7 @@
 #API Documentation
 
 Open up Postman or run curl commands to interact with the api.
+
 http://{ip_addr_of_docker}:3000/
 
 Returns:
@@ -22,5 +23,7 @@ GET /customers
 
 # Tickets
 GET /tickets
+
 GET /tickets/:eventid
+
 GET /tickets/:eventid/best
